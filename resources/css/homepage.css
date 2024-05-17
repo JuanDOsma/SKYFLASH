@@ -1,0 +1,126 @@
+/*
+ * Descripción: Este archivo CSS proporciona el estilo para una aplicación de reservas de vuelos.
+ * Incluye estilos para la apariencia general del sitio, el formulario de búsqueda de vuelos,
+ * la tabla de resultados de vuelos disponibles, y la sección de reservas de vuelos.
+ */
+
+body {
+    background-color: #411515;
+}
+
+.formulario-wrapper {
+    display: inline-block; 
+    background-color: #CE5848;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.formulario-wrapper2 {
+    display: inline-block; 
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+.formulario {
+    margin-bottom: 10px;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+    gap: 10px;
+}
+
+
+.titulo {
+    margin-right: 20px;
+}
+
+.datos select {
+    width: 200px;
+    padding: 5px;
+}
+
+#buscar {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.reserva {
+    margin-top: 20px;
+}
+
+.reserva table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+}
+
+.reserva th,
+.reserva td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.reserva th {
+    background-color: #333;
+    color: #fff;
+    padding-bottom: 15%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.cabecera {
+    text-align: center;
+    padding: 20px;
+}
+
+.cuerpo{
+    color: #fff;
+}
+
+.mostrar-vuelos {
+    margin-top: 5px;
+    align-items: center;
+    color: #fff;
+}
+
+.mostrar-vuelos table {
+    margin-top: 5px;
+    align-items: center;
+    color: #fff;
+}
+
+.vuelos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.titulo b {
+    margin-bottom: 20px; 
+}

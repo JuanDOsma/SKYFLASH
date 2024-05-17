@@ -1,0 +1,101 @@
+/*
+ * Descripción: Este archivo CSS proporciona el estilo para una página de inicio de sesión.
+ * Incluye estilos para la apariencia general del sitio, el formulario de inicio de sesión,
+ * y los elementos individuales del formulario como campos de entrada y botones.
+ */
+
+body {
+    background-color: #CE5848; 
+    font-family: Arial, sans-serif;
+    color: #ffffff; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    background-color: #4D1310;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+
+}
+
+.login-form img {
+    width: 100%;
+    max-width: 200px; 
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 94%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.form-group input:focus {
+    outline: none;
+    border-color: #6699cc;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0072c6;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #005ea6;
+}
+
+.error {
+    color: #ff3333;
+    margin-top: 10px;
+}
+
+.password-input {
+    display: flex;
+    align-items: center;
+}
+
+.password-input input {
+    flex: 1;
+}
+
+.toggle-password {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px; 
+    color: #ffffff;
+}
